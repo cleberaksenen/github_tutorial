@@ -55,4 +55,12 @@ git commit -m "mensagem"
 ```
 -> Todos os commits ficam dentro da pasta "./git"
 
+- Posso ver todos os checkpoints com:
+```
+git log
+```
+-> Para sair: *ctrl + z*
+
+
+
 
