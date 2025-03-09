@@ -43,7 +43,7 @@ git config --global user.name "seunome"
 git status
 ```
 
-#### Prepara aquilo que vai para o commit:
+### Preparação para o commit:
 - OBS. Cada commit terá um identificador único
 ##### Passo 1: Adicionar o arquivo:
 ```
@@ -97,5 +97,15 @@ git merge [nome da branch]
 -> Nada acontece com a outra branch
 ![Diagrama em branco (5)](https://github.com/user-attachments/assets/6f1648e6-e66e-45e2-8166-773c0cf1601f)
 
+***
 
+### Conflitos:
+- Vamos imaginar que 2 pessoas fizeram alterações no mesmo arquivo em 2 branchs diferentes e querem importar as diferentes alterações para a branch main:
+```
+git merge branch01
+git merge branch02 
+```
+-> XXX ISSO RESULTARÁ EM CONFLITO! XXX
+- Dentro do arquivo modificado, estará sendo informado o conflito a ser corrigido.
+- O problema não é ambos editarem o mesmo arquivo, mas sim ambos editarem a mesma *linha* do arquivo
 
