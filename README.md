@@ -70,9 +70,10 @@ git diff [arquivo]
 
 ##### Passo 3 (opcional): Criar uma banch (ramificação)
 - Estamos fazendo tudo na branch *main*
-- Podemos criar ou mudar para uma nova branch:
+- Podemos criar e mudar para uma nova branch:
+-> Essa nova branch irá clonar os dados a partir da branch de onde você estiver.
 ```
-git branch [nome da banch]
+git checkout -b [nome da banch]
 ```
 - Podemos trocar para a branch que acabamos de criar:
 ```
