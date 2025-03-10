@@ -109,3 +109,14 @@ git merge branch02
 - Dentro do arquivo modificado, estará sendo informado o conflito a ser corrigido.
 - O problema não é ambos editarem o mesmo arquivo, mas sim ambos editarem a mesma *linha* do arquivo
 
+***
+
+### Subindo o commit para o GitHub
+- Autentificação via SSH:
+
+- Envio do Commit:
+```
+git push origin main
+```
+- 
+
