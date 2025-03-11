@@ -118,5 +118,27 @@ git merge branch02
 ```
 git push origin main
 ```
+
+
+***
+
+## GitFlow
+- Modelo de fluxo de trabalho para o Git que ajuda a organizar as ramificações de um projeto de desenvolvimento. 
+![Diagrama em branco (6)](https://github.com/user-attachments/assets/d31f62c5-58b1-46ee-a803-c16ab9a73ce0)
+
+-> *main*: Contém o código de produção. Só recebe merges de branches estáveis e testadas.
+
+-> *develop*: É a branch de desenvolvimento principal, onde novas funcionalidades são integradas antes de serem lançadas para produção.
+
+-> *feature/* → Para desenvolvimento de novas funcionalidades
+
+### Padrões de Branch:
 - 
+
+***
+
+## GitIgnore
+- Git entende os arquivos como "vazios" mas podem existir para serem clonados.
+
+
 
